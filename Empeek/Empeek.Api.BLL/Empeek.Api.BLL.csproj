@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Empeek.Api.Contracts\Empeek.Api.Contracts.csproj" />
+    <ProjectReference Include="..\Empeek.Api.DAL\Empeek.Api.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
